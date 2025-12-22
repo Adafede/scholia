@@ -11,16 +11,16 @@
            :alt: Website
 
 .. |gitpod| image:: https://img.shields.io/badge/Gitpod-Open%20in%20Gitpod-%230092CF.svg
-           :target: https://gitpod.io/#https://github.com/WDscholia/scholia
+           :target: https://gitpod.io/#https://github.com/ad-freiburg/scholia
            :alt: Gitpod
-.. |github| image:: https://img.shields.io/github/last-commit/WDscholia/scholia.svg
-   :target: https://github.com/WDscholia/scholia
+.. |github| image:: https://img.shields.io/github/last-commit/ad-freiburg/scholia.svg
+   :target: https://github.com/ad-freiburg/scholia
    :alt: Github last commit
 .. |issues| image:: https://img.shields.io/github/issues/WDScholia/scholia.svg
-   :target: https://github.com/WDscholia/scholia/issues
+   :target: https://github.com/ad-freiburg/scholia/issues
    :alt: GitHub issues
 .. |license| image:: https://img.shields.io/badge/License-GPLv3-blue.svg
-   :target: https://github.com/WDscholia/scholia/blob/master/LICENSE
+   :target: https://github.com/ad-freiburg/scholia/blob/master/LICENSE
    :alt: License
 .. |docs| image:: https://readthedocs.org/projects/scholia/badge/?version=latest
    :target: https://scholia.readthedocs.io/en/latest/?badge=latest
@@ -36,13 +36,13 @@ Scholia can be installed directly from GitHub with:
 
 .. code-block:: shell
 
-    $ python3 -m pip install git+https://github.com/WDscholia/scholia
+    $ python3 -m pip install git+https://github.com/ad-freiburg/scholia
 
 It can be installed in development mode with:
 
 .. code-block:: shell
 
-    $ git clone https://github.com/WDscholia/scholia
+    $ git clone https://github.com/ad-freiburg/scholia
     $ cd scholia
     $ pip install --editable .
 
@@ -86,10 +86,10 @@ See file `CONTRIBUTING.rst`_ for technical details on how to improve Scholia.
 .. _Wikidata: https://www.wikidata.org
 .. _Wikimedia Foundation: https://wikimediafoundation.org
 .. _Wikimedia Toolforge: https://toolforge.org/
-.. _launch Scholia via Gitpod: https://gitpod.io/#https://github.com/WDscholia/scholia
-.. _CONTRIBUTING.rst: https://github.com/WDscholia/scholia/blob/main/CONTRIBUTING.rst
-.. _requirements.txt: https://github.com/WDscholia/scholia/blob/main/requirements.txt
-.. _runserver.py: https://github.com/WDscholia/scholia/blob/main/runserver.py
+.. _launch Scholia via Gitpod: https://gitpod.io/#https://github.com/ad-freiburg/scholia
+.. _CONTRIBUTING.rst: https://github.com/ad-freiburg/scholia/blob/main/CONTRIBUTING.rst
+.. _requirements.txt: https://github.com/ad-freiburg/scholia/blob/main/requirements.txt
+.. _runserver.py: https://github.com/ad-freiburg/scholia/blob/main/runserver.py
 
 References
 ----------

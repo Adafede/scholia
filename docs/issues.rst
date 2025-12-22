@@ -1,7 +1,7 @@
 Issues
 ======
 
-On `Scholia's issue page <https://github.com/WDscholia/scholia/issues>`_ you will be able to find the list of issues that we have in Scholia
+On `Scholia's issue page <https://github.com/ad-freiburg/scholia/issues>`_ you will be able to find the list of issues that we have in Scholia
 
 Labels
 ------
@@ -31,4 +31,4 @@ When it comes to reporting issues, we have some tags that allow the quick classi
 
     good_first_issue - An issue suitable to get your feet wet for contributing to Scholia
 
-and many more you can see the complete list of `Scholia's labels <https://github.com/WDscholia/scholia/labels?page=1&sort=name-asc>`_
+and many more you can see the complete list of `Scholia's labels <https://github.com/ad-freiburg/scholia/labels?page=1&sort=name-asc>`_

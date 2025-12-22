@@ -66,9 +66,9 @@ html_theme = "sphinx_rtd_theme"
 
 html_context = {
     "project_links": [
-        ProjectLink("Source Code", "https://github.com/WDscholia/scholia"),
+        ProjectLink("Source Code", "https://github.com/ad-freiburg/scholia"),
         ProjectLink(
-            "Issue Tracker", "https://github.com/WDscholia/scholia/issues"
+            "Issue Tracker", "https://github.com/ad-freiburg/scholia/issues"
         ),
         ProjectLink("Website", "https://scholia.toolforge.org/"),
     ]

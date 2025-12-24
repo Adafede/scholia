@@ -55,7 +55,7 @@ SELECT ?label ?beginning ?ending ?education_degree_label WHERE {
       ORDER BY ?beginning
       LIMIT 1
     }
-    BIND ("📖 first publication" AS ?label)
+    BIND("📖 first publication" AS ?label)
   }
   UNION {
     {

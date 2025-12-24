@@ -120,7 +120,7 @@ SELECT ?label ?beginning ?ending ?education_degree_label WHERE {
     ?award rdfs:label ?award_label_raw .
     FILTER(LANG(?award_label_raw) = "en")
     ?award_statement pq:P585 ?beginning .
-    BIND (CONCAT("🏆 ", STR(?award_label_raw)) AS ?label)
+    BIND(CONCAT("🏆 ", STR(?award_label_raw)) AS ?label)
   }
   UNION {
     target: wdt:P569 ?beginning .

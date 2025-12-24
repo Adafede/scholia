@@ -98,7 +98,7 @@ SELECT ?label ?beginning ?ending ?education_degree_label WHERE {
       ?education_degree rdfs:label ?education_degree_label .
       FILTER(LANG(?education_degree_label) = "en")
     }
-    BIND (CONCAT("🦉 ", STR(?education_label_raw)) AS ?label)
+    BIND(CONCAT("🦉 ", STR(?education_label_raw)) AS ?label)
   }
   UNION {
     # Affiliation

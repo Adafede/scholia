@@ -79,7 +79,7 @@ SELECT ?label ?beginning ?ending ?education_degree_label WHERE {
       ORDER BY DESC(?beginning)
       LIMIT 1
     }
-    BIND ("📖 latest publication" AS ?label)
+    BIND("📖 latest publication" AS ?label)
   }
   UNION {
     # Education

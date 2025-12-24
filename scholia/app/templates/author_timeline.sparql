@@ -31,7 +31,7 @@ SELECT ?label ?beginning ?ending ?education_degree_label WHERE {
       ORDER BY DESC(?number_of_citations)
       LIMIT 1
     }
-    BIND ("📖 publication of most cited article" AS ?label)
+    BIND("📖 publication of most cited article" AS ?label)
   }
   UNION {
     {

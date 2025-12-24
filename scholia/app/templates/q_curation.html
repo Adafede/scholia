@@ -51,7 +51,7 @@
 
       // Construct the final URL by appending the search parameters
       const url = `https://api.crossref.org/works/?${searchParams.toString()}`;
-      const error_message = "The API failed which could be due to a problem with your connection or with the upstream server. If the issue persists <a href='https://github.com/ad-freiburg/scholia/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=''>submit a bug report on GitHub</a>"
+      const error_message = "The API failed which could be due to a problem with your connection or with the upstream server. If the issue persists <a href='https://github.com/WDscholia/scholia/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=''>submit a bug report on GitHub</a>"
 
       fetch(url)
         .then(response => response.json())

@@ -455,7 +455,7 @@ askQuery2("{{ sparql_endpoint }}", "{{ panel }}", `# tool: scholia
 				   encodeURIComponent(title);
 	     var wikipediaUrl = 'https://en.wikipedia.org/wiki/' + encodeURIComponent(title)
 
-	     var headers = new Headers({"Api-User-Agent": "https://github.com/ad-freiburg/scholia"});
+	     var headers = new Headers({"Api-User-Agent": "https://github.com/WDscholia/scholia"});
 
 	     fetch(wikipediaApiUrl, {method: 'GET', headers: headers})
 	     .then(response => response.json())
@@ -1045,7 +1045,7 @@ askQuery2("{{ sparql_endpoint }}", "{{ panel }}", `# tool: scholia
   <a href="https://en.wikipedia.org">English Wikipedia</a>
   |
   Code from
-  <a href="https://github.com/ad-freiburg/scholia">GitHub repository</a>
+  <a href="https://github.com/WDscholia/scholia">GitHub repository</a>
   |
   Hosted on   <a href="https://toolforge.org/">Wikimedia Toolforge</a>,
   a <a href="https://wikimediafoundation.org">Wikimedia Foundation</a> service
@@ -1053,7 +1053,7 @@ askQuery2("{{ sparql_endpoint }}", "{{ panel }}", `# tool: scholia
   License for content: CC0 for data, CC-BY-SA for text and media
   |
   Report technical problems at Scholia's
-  <a href="https://github.com/ad-freiburg/scholia/issues">Issues</a> GitHub page.
+  <a href="https://github.com/WDscholia/scholia/issues">Issues</a> GitHub page.
   |
   Follow us on <a href="https://wikis.world/@wdscholia">Mastodon</a>.
   <hr>

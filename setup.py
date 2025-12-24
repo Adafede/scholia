@@ -14,7 +14,7 @@ setup(
     description='Scholia - Wikidata-based scholarly profiles',
     license='GPL',
     keywords='wikidata',
-    url='https://github.com/ad-freiburg/scholia',
+    url='https://github.com/WDscholia/scholia',
     packages=find_packages(),
     package_data={
         "scholia": [

@@ -112,7 +112,7 @@ SELECT ?label ?beginning ?ending ?education_degree_label WHERE {
     OPTIONAL {
       ?affiliation_statement pq:P582 ?ending .
     }
-    BIND (CONCAT("🏠 ", STR(?affiliation_label_raw)) AS ?label)
+    BIND(CONCAT("🏠 ", STR(?affiliation_label_raw)) AS ?label)
   }
   UNION {
     target: p:P166 ?award_statement .

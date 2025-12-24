@@ -16,7 +16,7 @@
 .. |github| image:: https://img.shields.io/github/last-commit/ad-freiburg/scholia.svg
    :target: https://github.com/ad-freiburg/scholia
    :alt: Github last commit
-.. |issues| image:: https://img.shields.io/github/issues/ad-freiburg/scholia.svg
+.. |issues| image:: https://img.shields.io/github/issues/WDScholia/scholia.svg
    :target: https://github.com/ad-freiburg/scholia/issues
    :alt: GitHub issues
 .. |license| image:: https://img.shields.io/badge/License-GPLv3-blue.svg

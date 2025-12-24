@@ -124,7 +124,7 @@ SELECT ?label ?beginning ?ending ?education_degree_label WHERE {
   }
   UNION {
     target: wdt:P569 ?beginning .
-    BIND ("👶 born" AS ?label) .
+    BIND ("👶 born " AS ?label) .
   }
   UNION {
     target: wdt:P570 ?beginning .

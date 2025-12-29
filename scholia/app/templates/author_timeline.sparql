@@ -1,4 +1,3 @@
-# tool: scholia
 #defaultView:Timeline
 PREFIX target: <http://www.wikidata.org/entity/{{ q }}>
 
@@ -88,9 +87,11 @@ SELECT ?label ?beginning ?ending ?education_degree_label WHERE {
     ?education rdfs:label ?education_label_raw .
     FILTER(LANG(?education_label_raw) = "en")
     OPTIONAL {
+      target: p:P69 ?education_statement .
       ?education_statement pq:P580 ?beginning .
     }
     OPTIONAL {
+      target: p:P69 ?education_statement .
       ?education_statement pq:P582 ?ending .
     }
     OPTIONAL {
